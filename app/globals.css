@@ -5,10 +5,37 @@ body {
 }
 .title {
   margin-top: 150px;
-  background-color: rgb(199, 174, 223);
   text-align: center;
 }
 .title-sub {
   text-align: center;
   background-color: antiquewhite;
+}
+.food {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(142, 142, 142);
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+}
+.navbar {
+  background-color: white;
+  padding: 20px;
+}
+.navbar a {
+  margin-right: 5px;
+  text-decoration: none;
+}
+.food-img {
+  width: 100%;
+  height: auto;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  line-height: 0px;
 }
